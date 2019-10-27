@@ -4,7 +4,7 @@ LAT stands for **L**inear **A**rrangement **T**oolbox. LAT.py is a Python module
 
     Copyright (C) 2019 Georgios N Printezis
     
-    This program is free software: you can redistribute it and/or modify
+    This module is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
