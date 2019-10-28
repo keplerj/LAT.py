@@ -99,13 +99,17 @@ def LA_stable(G, s):
     ncosts = int((n ** 2 - n) / 2)
 
     costs = np.empty(ncosts, dtype = float)
+    
+    cnt = 0
 
     for i in range(n - 1):
         src = s[i]
         for j in range(i + 1, n):
             trgt = s[j]
 
-            costs[i * n + j] = G[src, trgt] * (j - i)
+            costs[cnt] = G[src, trgt] * (j - i)
+            
+            cnt += 1
 
     la = np.sum(np.sort(costs))
 
