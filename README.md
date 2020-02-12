@@ -1,6 +1,6 @@
 # LAT.py: Linear Arrangement Toolbox in Python
 
-LAT stands for **L**inear **A**rrangement **T**oolbox. LAT.py is a Python module implemented in Python 3.x for use on the [Linear Arrangement Problem](https://en.wikipedia.org/wiki/Graph_bandwidth). 
+LAT stands for **L**inear **A**rrangement **T**oolbox. LAT.py is a Python module implemented in Python 3.x for use on the **Linear Arrangement Problem**. 
 
     Copyright (C) 2019 Georgios N Printezis
     
